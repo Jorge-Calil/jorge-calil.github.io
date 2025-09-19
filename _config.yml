@@ -9,40 +9,40 @@ theme: jekyll-theme-chirpy
 lang: en
 
 # Change to your timezone › https://kevinnovak.github.io/Time-Zone-Picker
-timezone:
+timezone: America/Sao_Paulo
 
 # jekyll-seo-tag settings › https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md
 # ↓ --------------------------
 
-title: Chirpy # the main title
+title: Jorge Calil # the main title
 
-tagline: A text-focused Jekyll theme # it will display as the subtitle
+tagline: Site dedicado a projetos e dicas de software/computação de analise de dados 🤓 # it will display as the subtitle
 
 description: >- # used by seo meta and the atom feed
-  A minimal, responsive and feature-rich Jekyll theme for technical writing.
+  Um blog simples, para compartilhar conhecimentos sobre tecnologia e analise de dados.
 
 # Fill in the protocol & hostname for your site.
 # E.g. 'https://username.github.io', note that it does not end with a '/'.
-url: ""
+url: "https://jorge-calil.github.io" # the base hostname & protocol for your site
 
 github:
-  username: github_username # change to your GitHub username
+  username: jorge-calil # change to your GitHub username
 
 twitter:
-  username: twitter_username # change to your Twitter username
+  username: # change to your Twitter username
 
 social:
   # Change to your full name.
   # It will be displayed as the default author of the posts and the copyright owner in the Footer
-  name: your_full_name
-  email: example@domain.com # change to your email address
+  name: Jorge Calil
+  email: jorgeeliascalil@gmail.com # change to your email address
   links:
     # The first element serves as the copyright owner's link
-    - https://twitter.com/username # change to your Twitter homepage
-    - https://github.com/username # change to your GitHub homepage
+    # - https://twitter.com/jorge_calil # change to your Twitter homepage
+    - https://github.com/jorge-calil # change to your GitHub homepage
     # Uncomment below to add more social links
     # - https://www.facebook.com/username
-    # - https://www.linkedin.com/in/username
+    - https://www.linkedin.com/in/jorge-elias-calil-622ba31b9/
 
 # Site Verification Settings
 webmaster_verifications:
@@ -98,7 +98,7 @@ theme_mode: # [light | dark]
 cdn:
 
 # the avatar on sidebar, support local or CORS resources
-avatar:
+avatar: https://media.licdn.com/dms/image/v2/D4D03AQGUGXeZxOv1_w/profile-displayphoto-scale_200_200/B4DZhwJfchGgAY-/0/1754228194939?e=1761177600&v=beta&t=vi_9U30cJZTTu6E5erZJBlDZtPzSwPsFFGLAmAgoD60
 
 # The URL of the site-wide social preview image used in SEO `og:image` meta tag.
 # It can be overridden by a customized `page.image` in front matter.
@@ -150,7 +150,7 @@ pwa:
 paginate: 10
 
 # The base URL of your site
-baseurl: ""
+baseurl: # "jorge-calil.github.io" # the subpath of your site, e.g. /blog
 
 # ------------ The following options are not recommended to be modified ------------------
 
